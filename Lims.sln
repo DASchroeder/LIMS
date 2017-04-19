@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lims", "Lims\Lims.csproj", "{82992625-73B2-4574-BEC3-11AAC2167D10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lims.Models", "StoreAppDemo.Models\Lims.Models.csproj", "{325D4839-3532-45D6-B4F9-F99D0BB4B524}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{82992625-73B2-4574-BEC3-11AAC2167D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82992625-73B2-4574-BEC3-11AAC2167D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82992625-73B2-4574-BEC3-11AAC2167D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325D4839-3532-45D6-B4F9-F99D0BB4B524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325D4839-3532-45D6-B4F9-F99D0BB4B524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325D4839-3532-45D6-B4F9-F99D0BB4B524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325D4839-3532-45D6-B4F9-F99D0BB4B524}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
