@@ -29,5 +29,7 @@ namespace Lims.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Lims.Models.Employee> Employees { get; set; }
     }
 }
