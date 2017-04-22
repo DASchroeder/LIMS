@@ -26,7 +26,8 @@ namespace Lims.Models
 
         public int Inventory { get; set; }
 
+        
         public virtual ICollection<Purchase> Purchases { get; set; }
-
+        
     }
 }
