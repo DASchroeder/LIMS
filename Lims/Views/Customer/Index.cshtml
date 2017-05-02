@@ -38,7 +38,11 @@
             @Html.DisplayFor(modelItem => item.PurchaseDate)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Purchases)
+            @foreach (var purchase in item.Purchases)
+            {
+                @Html.DisplayFor(model => purchase.Product.Name)
+                <p>&nbsp;</p>
+            }
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.CustomerID }) |

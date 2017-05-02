@@ -34,10 +34,11 @@
             @Html.DisplayFor(model => model.PurchaseDate)
         </dd>
         <dd>
-            @Html.DisplayNameFor(model => model.Purchases)
-        </dd>
-        <dd>
-            @Html.DisplayFor(model => model.Purchases)
+            @foreach (var purchase in item.Purchases)
+            {
+                @Html.DisplayFor(model => purchase.Product.Name)
+                <p>&nbsp;</p>
+            }
         </dd>
 
     </dl>
