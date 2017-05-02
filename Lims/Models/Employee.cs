@@ -13,6 +13,7 @@ namespace Lims.Models
         public string LastName { get; set; }
         public string FirstName { get; set; }
         public DateTime HireDate { get; set; }
+        public string DepartmentName { get; set; }
         public string FullName
         {
             get { return LastName + ", " + FirstName; }

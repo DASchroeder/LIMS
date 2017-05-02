@@ -1,5 +1,6 @@
 ﻿@model Lims.Models.Customer
 
+
 @{
     ViewBag.Title = "Details";
 }
@@ -33,14 +34,6 @@
         <dd>
             @Html.DisplayFor(model => model.PurchaseDate)
         </dd>
-        <dd>
-            @foreach (var purchase in item.Purchases)
-            {
-                @Html.DisplayFor(model => purchase.Product.Name)
-                <p>&nbsp;</p>
-            }
-        </dd>
-
     </dl>
 </div>
 <p>

@@ -10,6 +10,15 @@
     <h4>Purchase</h4>
     <hr />
     <dl class="dl-horizontal">
+        @*add in last name*@
+        <dt>
+            @Html.DisplayNameFor(model => model.Customer.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customer.LastName)
+        </dd>
+
         <dt>
             @Html.DisplayNameFor(model => model.Customer.FirstName)
         </dt>
@@ -34,6 +43,7 @@
             @Html.DisplayFor(model => model.Quantity)
         </dd>
 
+        @*add in purchase date*@
     </dl>
 </div>
 <p>
