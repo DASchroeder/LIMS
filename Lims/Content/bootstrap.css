@@ -6075,19 +6075,25 @@ a.badge:focus {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    color: inherit;
+    color: orange;
     background-color: #4e5d6c;
+    background-image: url("/content/images/inventory2.jpeg");
+    background-size: 115%;
+    background-position: bottom;
+   
 }
 
     .jumbotron h1,
     .jumbotron .h1 {
         color: inherit;
+        margin-left: 400px;
     }
 
     .jumbotron p {
-        margin-bottom: 15px;
+        margin-bottom: 35px;
         font-size: 23px;
-        font-weight: 200;
+        font-weight: 250;
+        color: yellow;
     }
 
     .jumbotron > hr {
@@ -6107,7 +6113,7 @@ a.badge:focus {
 
 @media screen and (min-width: 768px) {
     .jumbotron {
-        padding-top: 48px;
+        padding-top: 40px;
         padding-bottom: 48px;
     }
 
@@ -6119,7 +6125,7 @@ a.badge:focus {
 
     .jumbotron h1,
     .jumbotron .h1 {
-        font-size: 68px;
+        font-size: 60px;
     }
 }
 
